@@ -2,7 +2,7 @@ import React from "react";
 
 function index() {
   return (
-    <div className="hero-bg">
+    <div className="hero-bg" id="home">
       <div className="container-lg">
         <div className="text-2xl text-white flex flex-col gap-3 items-center justify-between mx-auto max-w-4xl text-center top-2/4 relative -translate-y-2/4">
           <h3>Find Your Perfect Ride Today</h3>
