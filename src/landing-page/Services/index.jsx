@@ -22,11 +22,11 @@ const services = [
 ];
 function index() {
   return (
-    <div className="py-20">
+    <div className="py-10 sm:py-20 md:py-40" id="services">
       <div className="container-lg">
         <div className="flex flex-col gap-10 items-center justify-between">
           <div className="text-2xl italic">What we offer you!</div>
-          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 w-full">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 w-full">
             {services.map((item, index) => (
               <div
                 className="border-2 min-h-40 flex flex-col justify-center  gap-3 px-5 py-5 rounded-lg"
